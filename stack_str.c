@@ -30,7 +30,7 @@ void prints(stack_t **stack, __attribute__((unused))unsigned int ln)
 
 	if (stack == NULL || *stack == NULL)
 	{
-		puts("\n");
+		printf("\n");
 		return;
 	}
 
@@ -43,7 +43,7 @@ void prints(stack_t **stack, __attribute__((unused))unsigned int ln)
 		printf("%c", char_value);
 		current_node = current_node->next;
 	}
-	puts("\n");
+	printf("\n");
 }
 
 /**
